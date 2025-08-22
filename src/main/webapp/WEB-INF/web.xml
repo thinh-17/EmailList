@@ -11,7 +11,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>EmailListServlet</servlet-name>
-        <url-pattern>/emailList</url-pattern>
+        <url-pattern>thank.jsp</url-pattern>
     </servlet-mapping>
 
     <session-config>
