@@ -6,7 +6,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import murach.business.*;
 
-public class EmailListServlet extends HttpServlet  {
+public class EmailListServlet1 extends HttpServlet  {
 
     @Override
     protected void doPost(HttpServletRequest request, 
@@ -31,7 +31,7 @@ public class EmailListServlet extends HttpServlet  {
             String email = request.getParameter("email");
 
             // store data in User object and save User object in db
-            User user = new User(firstName, lastName, email);
+            User1 user = new User1(firstName, lastName, email);
 //            UserDB.insert(user);
             
             // set User object in request object and set URL

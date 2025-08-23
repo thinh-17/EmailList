@@ -2,18 +2,18 @@ package murach.business;
 
 import java.io.Serializable;
 
-public class User implements Serializable {
+public class User1 implements Serializable {
 	private String firstName;
     private String lastName;
     private String email;
     
-    public User() {
+    public User1() {
         firstName = "";
         lastName = "";
         email = "";
     }
     
-    public User(String firstName, String lastName, String email) {
+    public User1(String firstName, String lastName, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
