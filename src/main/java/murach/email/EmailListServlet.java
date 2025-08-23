@@ -25,7 +25,7 @@ public class EmailListServlet extends HttpServlet  {
             url = "/index.html";    // the "join" page
         }
         else if (action.equals("add")) {                
-            // get parameters from the request
+            // get parameters from the request	
             String firstName = request.getParameter("firstName");
             String lastName = request.getParameter("lastName");
             String email = request.getParameter("email");
