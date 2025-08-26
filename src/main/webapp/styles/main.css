@@ -3,9 +3,37 @@ body {
     font-size: 11pt;
     margin-left: 2em;
     margin-right: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(-90deg, rgb(59, 158, 215) ,#040a78);
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 h1 { 
-    color: teal;
+    color: rgb(24, 122, 208);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(24, 122, 208);
+    border-radius: 40px;
+    color: white;
+}
+
+.container-full {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 100px;
 }
 label {
     float: left;
@@ -16,9 +44,21 @@ input[type="text"], input[type="email"] {
     width: 15em;
     margin-left: 0.5em;    
     margin-bottom: 0.5em;
+    border-radius: 5px;
 }
 br {
     clear: both;
 }
 #submit {
-    margin-left: 0.5em; }
+    margin: 1em;
+    margin-bottom: 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: #333;
+}
+
+#submit:hover {
+    background-color: #040a78;
+    color: aliceblue;
+}
